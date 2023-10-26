@@ -1,14 +1,9 @@
 import os
 import sys
-<<<<<<< HEAD
-from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.orm import relationship, declarative_base
-=======
 import enum
 from sqlalchemy import Column, ForeignKey, Integer, String, DateTime, Enum
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
->>>>>>> fb8003e (data model completed)
 from sqlalchemy import create_engine
 from eralchemy2 import render_er
 
